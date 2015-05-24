@@ -95,7 +95,7 @@ col_names <- gsub('Gyro', 'Gyroscope', col_names)
 # I left std as an abbreviation rather than the more descriptive Standard
 # Deviation, because std is fairly standard notation
 
-# Reset the column names
+# Set the new column names
 names(combined_data) <- col_names
 
 # Create a tidy data set containing averages ------------------------------
