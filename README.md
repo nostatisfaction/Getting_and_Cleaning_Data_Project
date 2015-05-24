@@ -32,7 +32,7 @@ Below is a block quote indicating the stated purpose of this project, as provide
 2. Set the working directory to match the location of ```run_analysis.R```; this directory should likewise include the extracted directory structure containing the data files;
 3. Run ```run_analysis.R```;
 
-## Goals and Output
+## Project Goals
 
 The purpose of this exercise was to read, merge, tidy and summarize data from a project in the field of human computer interaction entitled Human Activity Recognition Using Smartphones. Running ```run_analysis.R``` accomplishes this by merging the data into a single, tidy dataset entitled ```combined_data``` and further summarizing these data in an independent dataset entitled ```summary_data```. The latter is further output into a tab-delimited file (entitled ```tidyHumanActivityRecognitionUsingSmartphones.txt```). Details pertaining to the nature and values of each of the variables contained within the datasets are provided in the complementary Code Book (https://github.com/nostatisfaction/Getting_and_Cleaning_Data_Project/blob/master/CodeBook.md). Further, please note that I have opted to keep my data in wide format rather than long format (*for discussion as to how this might be considered tidy, see https://class.coursera.org/getdata-014/forum/thread?thread_id=31*)
 
